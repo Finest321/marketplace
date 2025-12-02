@@ -50,21 +50,17 @@ The project is organized in the following structure:
 
 ## 📁 Project Structure
 
-
 lib/
-  screens/          
-    buyer_home_screen.dart           # Main screen for buyers
-    seller_dashboard_screen.dart     # Seller's dashboard
-    cart_screen.dart                 # Shopping cart screen
-    order_screen.dart                # Checkout screen
-    order_history_screen.dart        # Past orders for buyers
-    settings_screen.dart             # App settings like dark/light mode
-  widgets/                      
-    product_card.dart                # Reusable product card component
-    order_item_card.dart             # Reusable order item component
-    custom_button.dart               # Reusable buttons if needed
-  main.dart                          # Entry point of the application
-
+├── screens/
+│   ├── buyer_home_screen.dart        # Main screen for buyers
+│   ├── cart_screen.dart              # Shopping cart screen
+│   ├── order_screen.dart             # Checkout screen
+│   ├── order_history_screen.dart     # Past orders
+│   └── settings_screen.dart          # App settings (dark/light mode)
+├── widgets/
+│   ├── product_card.dart             # Reusable product card component
+│   └── order_item_card.dart          # Reusable order item component
+└── main.dart                         # Entry point of the application
 
 ## 🧑‍💻 Contributing
 
