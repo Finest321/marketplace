@@ -49,7 +49,7 @@ The project is organized in the following structure:
 
 
 ## 📁 Project Structure
-
+```
 lib/
 ├── screens/
 │   ├── buyer_home_screen.dart        # Main screen for buyers
@@ -61,7 +61,7 @@ lib/
 │   ├── product_card.dart             # Reusable product card component
 │   └── order_item_card.dart          # Reusable order item component
 └── main.dart                         # Entry point of the application
-
+```
 ## 🧑‍💻 Contributing
 
 Contributions are welcome! You can submit pull requests, report issues, or suggest new features.
